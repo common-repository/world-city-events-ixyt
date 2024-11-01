@@ -1,0 +1,248 @@
+
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+
+.ixyt_events--container{
+    padding: 40px 0;
+    margin: 0 auto;
+    max-width: 1620px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px !important;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #212529;
+    container-type: inline-size;
+}
+
+.ixyt_events--container img {
+    margin-bottom: 0;
+}
+
+.ixyt_events--container h3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 1.5625em !important;
+    line-height: 1.5625em;
+    margin: 0 0 2.75em;
+    text-align: center;
+}
+
+.ixyt_events--container h3 img{
+    width: 100px;
+}
+
+.ixyt_events--container h3 span{
+    width: 100%;
+}
+
+
+.ixyt_events--container .ixyt_events--list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.75em 0.75em;
+}
+
+.ixyt_events--item{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.ixyt_events--list .ixyt_events--item > a {
+    text-decoration: none;
+    display: block;
+    color: inherit;
+}
+
+.ixyt_events--list .ixyt_events--item > a:hover .ixyt_events--item-desc h4 {
+    color: #007BFF;
+}
+
+.ixyt_events--item .ixyt_events--item-image img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+
+.ixyt_events--item .ixyt_events--item-desc{
+    margin: 1.25em 1.5625em;
+}
+
+.ixyt_events--item .ixyt_events--item-date{
+    display: block;
+    font-size: 1em !important;
+    line-height: 1.4375em;
+    margin-bottom: 0.9375em;
+}
+
+.ixyt_events--item .ixyt_events--item-desc h4{
+    font-weight: 700;
+    font-size: 1.125em !important;
+    line-height: 1.4375em;
+    margin: 0 0 0.75em;
+    transition: color .3s;
+}
+
+.ixyt_events--item .ixyt_events--item-desc p{
+    font-size: 0.9375em !important;
+    line-height: 1.4375em;
+    margin: 0;
+}
+
+.ixyt_events--item .ixyt_events--item-links{
+    margin: auto 1.5625em 2.1875em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.625em;
+}
+
+.ixyt_events--item .ixyt_events--item-more{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1em !important;
+    line-height: 24px;
+    color: #007BFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .3s;
+}
+
+.ixyt_events--item .ixyt_events--item-more img{
+    display: block;
+    margin-left: 7px;
+}
+
+.ixyt_events--item .ixyt_events--item-ticket{
+    display: block;
+    flex-grow: 1;
+    max-width: 103px;
+    padding: 0.4375em 1em;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1em !important;
+    line-height: 1.4375em;
+    text-align: center;
+    background: linear-gradient(270deg, #4EADFE 0%, #04EEFE 131.29%);
+    border-radius: 31px;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.ixyt_events--container .ixyt_events-more{
+    display: block;
+    width: max-content;
+    margin: 3.75em auto 0;
+    color: #FFFFFF;
+    padding: 13px 28px;
+    background: #007BFF;
+    border-radius: 51px;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.ixyt_events--item .ixyt_events--item-more:hover, .ixyt_events--item .ixyt_events--item-ticket:hover, .ixyt_events--container .ixyt_events-more:hover {
+    filter: brightness(1.2);
+}
+
+.ixyt_events--item .ixyt_events--item-more:active, .ixyt_events--item .ixyt_events--item-ticket:active, .ixyt_events--container .ixyt_events-more:active {
+    filter: brightness(1.1);
+}
+
+@container (min-width: 480px) {
+    .ixyt_events--list .ixyt_events--item {
+        width: calc((100% - 0.75em) / 2);
+    }
+}
+
+@container (min-width: 768px) {
+    .ixyt_events--container {
+        font-size: 16px !important;
+    }
+
+    .ixyt_events--container h3 {
+        padding-right: 110px;
+    }
+
+    .ixyt_events--container h3 img {
+        width: 100px;
+    }
+
+    .ixyt_events--list .ixyt_events--item {
+        width: calc((100% - 1.5em) / 3);
+    }
+}
+
+@container (min-width: 1440px) {
+    .ixyt_events--list .ixyt_events--item {
+        width: calc(25% - 0.75em * 0.75);
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .ixyt_events--container {
+        padding: 60px 0;
+        font-size: 15px !important;
+    }
+
+    .ixyt_events--item {
+        width: calc((100% - 0.75em) / 2);
+    }
+
+    .ixyt_events--item .ixyt_events--item-image img{
+        height: 14.65em;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .ixyt_events--container h3 {
+        flex-direction: row;
+        align-items: flex-start;
+        padding-right: 90px;
+    }
+
+    .ixyt_events--container h3 span {
+        align-self: center;
+    }
+
+    .ixyt_events--container h3 img {
+        width: 80px;
+    }
+
+    .ixyt_events--item {
+        width: calc((100% - 1.5em) / 3);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .ixyt_events--container {
+        font-size: 16px !important;
+    }
+
+    .ixyt_events--container h3 {
+        padding-right: 110px;
+    }
+
+    .ixyt_events--container h3 img {
+        width: 100px;
+    }
+
+    .ixyt_events--item {
+        width: calc(25% - 0.75em * 0.75);
+    }
+}

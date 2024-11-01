@@ -1,0 +1,214 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: World City Events: IXYT\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-28 10:17+0000\n"
+"PO-Revision-Date: 2024-01-04 09:11+0000\n"
+"Last-Translator: \n"
+"Language-Team: Ukrainian\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.4.2"
+
+#. Description of the plugin
+msgid ""
+"A unique WordPress plugin - get the latest events in your city! Increase "
+"your SEO rating and attract more visitors to your site with useful content. "
+"Free and easy to set up!"
+msgstr ""
+"Унікальний плагін для WordPress-отримуйте інформацію про останні події у "
+"Вашому місті! Підвищіть свій рейтинг SEO та залучіть більше відвідувачів на "
+"свій веб-сайт корисним вмістом. Безкоштовно і просто в налаштуванні!"
+
+#: admin/table-ixyt-page.php:20
+#: admin/partials/ixyt-city-events-admin-display.php:68
+msgid "Add New"
+msgstr "Додати Новий"
+
+#: admin/partials/ixyt-city-events-admin-display.php:67
+msgid "Add New City Events"
+msgstr "Додавання нових міських Подій"
+
+#: admin/save-ixyt-page.php:46
+msgid "Add New Page"
+msgstr "Додати Нову Сторінку"
+
+#: admin/save-ixyt-page.php:76
+msgid "add title"
+msgstr "додати заголовок"
+
+#: includes/templates/ixyt-page-not-found-temlate.php:18
+#: includes/templates/ixyt-page-template.php:19
+msgid "addresses and names of events in one table"
+msgstr "адреси і назви заходів в одній таблиці"
+
+#. Author of the plugin
+msgid "Arista.by"
+msgstr "Arista.by"
+
+#: admin/includes/class-ixyt-list-table.php:64
+msgid "Author"
+msgstr "Автор"
+
+#: admin/includes/class-ixyt-list-table.php:62
+msgid "checkbox"
+msgstr "прапорець"
+
+#: admin/includes/class-ixyt-list-table.php:66
+msgid "City page"
+msgstr "Сторінка міста"
+
+#: admin/save-ixyt-page.php:122
+msgid ""
+"Copy this shortcode and paste it into your post, page, or text widget "
+"content:"
+msgstr ""
+"Скопіюйте цей шорткод і вставте вміст вашого поста, сторінки або текстового "
+"віджету:"
+
+#: admin/includes/class-ixyt-list-table.php:65
+msgid "Country"
+msgstr "Країна"
+
+#: includes/class-ixyt-model.php:93
+msgid "Current post was deleted or does not exist."
+msgstr "Поточне повідомлення було видалено або його не існує."
+
+#: admin/includes/class-ixyt-list-table.php:83
+msgid "Delete"
+msgstr "Видалити"
+
+#. %s: title of contact form
+#: admin/includes/class-ixyt-list-table.php:137
+#, php-format
+msgid "Edit &#8220;%s&#8221;"
+msgstr "Редагувати &#8220;%s&#8221;"
+
+#: admin/save-ixyt-page.php:48
+msgid "Edit page"
+msgstr "Редагувати сторінку"
+
+#: admin/partials/ixyt-city-events-admin-display.php:179
+msgid "Error in deleting."
+msgstr "Помилка при видаленні."
+
+#: includes/templates/ixyt-page-not-found-temlate.php:21
+msgid "Events not found in current period..."
+msgstr "Події, не знайдені в поточному періоді..."
+
+#: admin/save-ixyt-page.php:109
+msgid "Help block"
+msgstr "Блок допомоги"
+
+#. Author URI of the plugin
+msgid "https://arista.by"
+msgstr "https://arista.by"
+
+#. URI of the plugin
+msgid "https://ixyt.info/en/plugin"
+msgstr "https://ixyt.info/ua/plugin"
+
+#: includes/class-ixyt-model.php:88
+msgid "ID not found."
+msgstr "Ідентифікатор не знайдено."
+
+#: admin/table-ixyt-page.php:21
+msgid "Instruction"
+msgstr "Інструкція"
+
+#: includes/class-ixyt-model.php:52
+msgid "IXYT city events"
+msgstr "Міські заходи IXYT"
+
+#: admin/partials/ixyt-city-events-admin-display.php:57
+msgid "IXYT edit"
+msgstr "IXYT редагувати"
+
+#: includes/templates/ixyt-page-not-found-temlate.php:24
+#: includes/templates/ixyt-page-template.php:47
+msgid "MORE EVENTS"
+msgstr "ІНШІ ПОДІЇ"
+
+#: admin/save-ixyt-page.php:111
+#, php-format
+#| msgid "More info"
+msgid "More info %s"
+msgstr "Додаткова інформація %s"
+
+#: admin/includes/class-ixyt-notificator.php:19
+msgid "Post successfully added."
+msgstr "Повідомлення успішно додано."
+
+#: admin/includes/class-ixyt-notificator.php:23
+msgid "Post successfully edited."
+msgstr "Повідомлення успішно відредаговано."
+
+#: admin/includes/class-ixyt-notificator.php:27
+msgid "Post(s) successfully deleted."
+msgstr "Повідомлення (и) успішно видалено."
+
+#: includes/class-ixyt-model.php:103
+msgid "Problems with post content."
+msgstr "Проблеми з утриманням публікації."
+
+#: includes/templates/ixyt-page-template.php:37
+msgid "READ MORE"
+msgstr "Детальніше"
+
+#: admin/save-ixyt-page.php:33
+msgid "Save"
+msgstr "Зберегти"
+
+#: admin/table-ixyt-page.php:37
+msgid "Search"
+msgstr "Пошук"
+
+#. %s: search keywords
+#: admin/table-ixyt-page.php:29
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Результати пошуку для &#8220;%s&#8221;"
+
+#: includes/class-ixyt-city-events-loader.php:154
+msgid "Settings"
+msgstr "Налаштування"
+
+#: admin/includes/class-ixyt-list-table.php:67
+msgid "Short Code"
+msgstr "Короткий код"
+
+#: admin/includes/class-ixyt-notificator.php:15
+msgid "Some error."
+msgstr "Якась помилка."
+
+#: includes/templates/ixyt-page-template.php:42
+msgid "Ticket"
+msgstr "Квиток"
+
+#: admin/includes/class-ixyt-list-table.php:63
+msgid "Title"
+msgstr "Назва"
+
+#. Name of the plugin
+#: admin/partials/ixyt-city-events-admin-display.php:47
+#: admin/partials/ixyt-city-events-admin-display.php:48
+#: admin/partials/ixyt-city-events-admin-display.php:58
+msgid "World City Events: IXYT"
+msgstr "Міські події світу: IXYT"
+
+#: includes/class-ixyt-model.php:97
+msgid "Wrong post type."
+msgstr "Неправильний тип повідомлення."
+
+#: admin/partials/ixyt-city-events-admin-display.php:174
+msgid "You are not allowed to delete this item."
+msgstr "Ви не маєте права видаляти цей елемент."
+
+#: admin/partials/ixyt-city-events-admin-display.php:115
+msgid "You are not allowed to edit this item."
+msgstr "Вам не дозволено редагувати цей елемент."

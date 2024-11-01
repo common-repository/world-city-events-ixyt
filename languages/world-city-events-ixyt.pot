@@ -1,0 +1,207 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-04 09:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#. Description of the plugin
+msgid ""
+"A unique WordPress plugin - get the latest events in your city! Increase "
+"your SEO rating and attract more visitors to your site with useful content. "
+"Free and easy to set up!"
+msgstr ""
+
+#: admin/table-ixyt-page.php:20
+#: admin/partials/ixyt-city-events-admin-display.php:68
+msgid "Add New"
+msgstr ""
+
+#: admin/partials/ixyt-city-events-admin-display.php:67
+msgid "Add New City Events"
+msgstr ""
+
+#: admin/save-ixyt-page.php:46
+msgid "Add New Page"
+msgstr ""
+
+#: admin/save-ixyt-page.php:76
+msgid "add title"
+msgstr ""
+
+#: includes/templates/ixyt-page-not-found-temlate.php:18
+#: includes/templates/ixyt-page-template.php:19
+msgid "addresses and names of events in one table"
+msgstr ""
+
+#. Author of the plugin
+msgid "Arista.by"
+msgstr ""
+
+#: admin/includes/class-ixyt-list-table.php:64
+msgid "Author"
+msgstr ""
+
+#: admin/includes/class-ixyt-list-table.php:62
+msgid "checkbox"
+msgstr ""
+
+#: admin/includes/class-ixyt-list-table.php:66
+msgid "City page"
+msgstr ""
+
+#: admin/save-ixyt-page.php:122
+msgid ""
+"Copy this shortcode and paste it into your post, page, or text widget "
+"content:"
+msgstr ""
+
+#: admin/includes/class-ixyt-list-table.php:65
+msgid "Country"
+msgstr ""
+
+#: includes/class-ixyt-model.php:93
+msgid "Current post was deleted or does not exist."
+msgstr ""
+
+#: admin/includes/class-ixyt-list-table.php:83
+msgid "Delete"
+msgstr ""
+
+#. %s: title of contact form
+#: admin/includes/class-ixyt-list-table.php:137
+#, php-format
+msgid "Edit &#8220;%s&#8221;"
+msgstr ""
+
+#: admin/save-ixyt-page.php:48
+msgid "Edit page"
+msgstr ""
+
+#: admin/partials/ixyt-city-events-admin-display.php:179
+msgid "Error in deleting."
+msgstr ""
+
+#: includes/templates/ixyt-page-not-found-temlate.php:21
+msgid "Events not found in current period..."
+msgstr ""
+
+#: admin/save-ixyt-page.php:109
+msgid "Help block"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://arista.by"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://ixyt.info/en/plugin"
+msgstr ""
+
+#: includes/class-ixyt-model.php:88
+msgid "ID not found."
+msgstr ""
+
+#: admin/table-ixyt-page.php:21
+msgid "Instruction"
+msgstr ""
+
+#: includes/class-ixyt-model.php:52
+msgid "IXYT city events"
+msgstr ""
+
+#: admin/partials/ixyt-city-events-admin-display.php:57
+msgid "IXYT edit"
+msgstr ""
+
+#: includes/templates/ixyt-page-not-found-temlate.php:24
+#: includes/templates/ixyt-page-template.php:47
+msgid "MORE EVENTS"
+msgstr ""
+
+#: admin/save-ixyt-page.php:111
+#, php-format
+msgid "More info %s"
+msgstr ""
+
+#: admin/includes/class-ixyt-notificator.php:19
+msgid "Post successfully added."
+msgstr ""
+
+#: admin/includes/class-ixyt-notificator.php:23
+msgid "Post successfully edited."
+msgstr ""
+
+#: admin/includes/class-ixyt-notificator.php:27
+msgid "Post(s) successfully deleted."
+msgstr ""
+
+#: includes/class-ixyt-model.php:103
+msgid "Problems with post content."
+msgstr ""
+
+#: includes/templates/ixyt-page-template.php:37
+msgid "READ MORE"
+msgstr ""
+
+#: admin/save-ixyt-page.php:33
+msgid "Save"
+msgstr ""
+
+#: admin/table-ixyt-page.php:37
+msgid "Search"
+msgstr ""
+
+#. %s: search keywords
+#: admin/table-ixyt-page.php:29
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: includes/class-ixyt-city-events-loader.php:154
+msgid "Settings"
+msgstr ""
+
+#: admin/includes/class-ixyt-list-table.php:67
+msgid "Short Code"
+msgstr ""
+
+#: admin/includes/class-ixyt-notificator.php:15
+msgid "Some error."
+msgstr ""
+
+#: includes/templates/ixyt-page-template.php:42
+msgid "Ticket"
+msgstr ""
+
+#: admin/includes/class-ixyt-list-table.php:63
+msgid "Title"
+msgstr ""
+
+#. Name of the plugin
+#: admin/partials/ixyt-city-events-admin-display.php:47
+#: admin/partials/ixyt-city-events-admin-display.php:48
+#: admin/partials/ixyt-city-events-admin-display.php:58
+msgid "World City Events: IXYT"
+msgstr ""
+
+#: includes/class-ixyt-model.php:97
+msgid "Wrong post type."
+msgstr ""
+
+#: admin/partials/ixyt-city-events-admin-display.php:174
+msgid "You are not allowed to delete this item."
+msgstr ""
+
+#: admin/partials/ixyt-city-events-admin-display.php:115
+msgid "You are not allowed to edit this item."
+msgstr ""
